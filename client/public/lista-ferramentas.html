@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Ferramentas</title>
+    <link rel="stylesheet" href="src/styles/listaFerramentas.css">
+</head>
+<body>
+    <h1>Lista de Ferramentas</h1>
+    <!--
+    <div class="back-button-container">
+        <a href="index.html" class="back-button">Voltar ao Menu Principal</a>
+    </div>  
+    -->
+    <div class="tabela-container">
+        <table id="ferramentasTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome da Ferramenta</th>
+                    <th>QR Code</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- As linhas da tabela serão inseridas aqui pelo JavaScript -->
+            </tbody>
+        </table>
+    </div>
+    <div class="print-button-container">
+        <button onclick="printList()">Imprimir Lista</button> <!-- Botão de imprimir adicionado aqui -->
+    </div>
+    <script src="src/listaFerramentas.js"></script>
+</body>
+</html>

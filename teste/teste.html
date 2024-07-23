@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emprestar Ferramentas</title>
+    <link rel="stylesheet" href="src/styles/emprestarFerramenta.css">
+    <script src="src/html5-qrcode.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Emprestar Ferramenta</h1>
+        <select id="usuario" name="usuario">
+            <option value="" disabled selected>Selecione um usuário</option>
+        </select>
+        <div id="reader" style="width: 500px; height: 300px;"></div>
+
+        <button id="btnEmprestar" disabled>Emprestar Ferramenta</button>
+        <input type="text" id="idFerramenta" placeholder="Digite o ID da ferramenta" />
+        <button id="btnAdicionarPeloId">Adicionar por ID</button>
+        <input type="text" id="local" placeholder="Local" /> <!-- Novo campo Local -->
+        <table id="tabelaFerramentas">
+            <thead>
+                <tr>
+                    <th>Ferramenta</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="src/emprestarFerramenta.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+/* Estilos para o container do título e da lista de ferramentas */
+.container {
+    text-align: center; /* Centraliza o conteúdo */
+    margin: 20px auto; /* Adiciona margem acima e abaixo, e centraliza horizontalmente */
+    width: 80%; /* Define a largura do container para 80% da largura da viewport */
+}
+
+/* Estilos para o título */
+h1 {
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+}
+
+.tabela-ferramentas button {
+    background-color: #dc3545; /* Cor vermelha para indicar ação de excluir */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+}
+
+.tabela-ferramentas button:hover {
+    background-color: #c82333; /* Cor mais escura no hover */
+}
+
+
+.tabela-ferramentas th {
+    background-color: #04AA6D; /* Cor de fundo para o cabeçalho da tabela */
+    color: white; /* Cor do texto para o cabeçalho da tabela */
+}
+
+/* Mantém os estilos para o botão de voltar e os botões de excluir como definido anteriormente */
+
+.back-button {
+    /* Estilos para o botão de voltar ao canto superior esquerdo */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    /* Outros estilos permanecem iguais */
+}
+
+/* Estilos para os botões de excluir, se houver, podem permanecer como definido anteriormente */
+
+/* Estilos para o botão de voltar */
+.back-button {
+    display: block; /* Faz o botão de voltar ocupar a linha inteira */
+    width: max-content; /* O botão ocupa apenas o conteúdo */
+    margin: 20px auto; /* Centraliza o botão horizontalmente e adiciona margem no topo e embaixo */
+    padding: 5px 15px; /* Espaçamento interno para o botão */
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    text-decoration: none; /* Remove o sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas para o botão */
+    text-align: center; /* Centraliza o texto dentro do botão */
+}
+
+.back-button:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}

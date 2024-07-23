@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historico de Empréstimos - Sistema Ferramentaria</title>
+    <link rel="stylesheet" href="src/styles/relatorio.css">
+</head>
+<body>
+    <h1>Histórico de Empréstimos</h1>
+    <table id="historicoEmprestimos">
+        <thead>
+            <tr>
+                <th><input type="text" id="filtroId" placeholder="Filtrar por ID"></th>
+                <th><input type="text" id="filtroFerramenta" placeholder="Filtrar por Ferramenta"></th>
+                <th><input type="text" id="filtroPessoa" placeholder="Filtrar por Pessoa"></th>
+                <th><input type="text" id="filtroStatus" placeholder="Filtrar por Status"></th>
+                <th><input type="text" id="filtroData" placeholder="Filtrar por Data"></th>
+                <th><input type="text" id="filtroLocal" placeholder="Filtrar por Local"></th>
+                <th><button id="buscar">Buscar</button></th>
+            </tr>
+            <tr>
+                <th>ID</th>
+                <th>Nome da Ferramenta</th>
+                <th>Nome da Pessoa</th>
+                <th>Status</th>
+                <th>Data</th>
+                <th>Local</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Linhas da tabela serão adicionadas aqui dinamicamente -->
+        </tbody>
+    </table>
+
+    <script src="src/relatorio.js"></script>
+</body>
+</html>

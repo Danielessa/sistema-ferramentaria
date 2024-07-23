@@ -1,0 +1,34 @@
+<!-- devolver-ferramentas.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devolver Ferramentas</title>
+    <!-- Caminho relativo para o CSS pode variar dependendo da sua estrutura de diretórios -->
+    <link rel="stylesheet" href="src/styles/devolverFerramenta.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Devolver Ferramentas</h1>
+        <label for="usuarioSelect">Escolha um usuário:</label>
+        <select id="usuarioSelect">
+            <option value="" disabled selected>Carregando usuários...</option>
+        </select>
+    </div>
+    <table id="tabelaFerramentas">
+        <thead>
+            <tr>
+                <th>Ferramenta</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- As ferramentas serão inseridas aqui dinamicamente -->
+        </tbody>
+    </table>
+    
+    <!-- Caminho relativo para o JavaScript pode variar dependendo da sua estrutura de diretórios -->
+    <script src="src/devolverFerramenta.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Ferramenta</title>
+    <link rel="stylesheet" href="src/styles/cadastroFerramenta.css">
+</head>
+<body>
+    <!-- Botão de voltar 
+    <div id="backButtonContainer" style="position: absolute; top: 10px; left: 10px;">
+        <a href="index.html" class="backButton">Voltar</a>
+    </div>
+    -->
+    <div class="container">
+        <h1>Cadastrar Nova Ferramenta</h1>
+        <form id="cadastroFerramentaForm">
+            <div class="form-group">
+                <label for="nomeFerramenta">Nome da Ferramenta:</label>
+                <input type="text" id="nomeFerramenta" name="nomeFerramenta" required>
+            </div>
+            <button type="submit">Cadastrar</button>
+            <img id="qrcodeDisplay" style="display:block; margin-top:20px; max-width:200px; max-height:200px;" />
+            <div id="ferramentaIdDisplay" style="margin-top: 20px; font-size: 18px;"></div>
+            <button id="printButton" style="display:none; margin-top:20px;" onclick="printQRCode()">Imprimir QR Code e ID</button>
+        </form>
+    </div>
+    <script src="src/cadastroFerramenta.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+}
+
+#usuarioSelect, #btnExcluir {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+#btnExcluir {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#btnExcluir:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

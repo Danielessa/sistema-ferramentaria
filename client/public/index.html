@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Ferramentaria</title>
+    <link rel="stylesheet" href="src/styles/main.css">
+    <style>
+        /* Estilos para o botão invisível */
+        #invisible-button {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50px;
+            height: 50px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <h1>Sistema de Ferramentaria</h1>
+        <nav>
+            <ul>
+                <li><a href="emprestar-ferramenta.html" id="emprestar-ferramenta">Emprestar Ferramenta</a></li>
+                <li><a href="devolver-ferramenta.html" id="devolver-ferramenta">Devolver Ferramenta</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Botão invisível no canto superior esquerdo -->
+    <button id="invisible-button" onclick="window.location.href='login.html'"></button>
+</body>
+</html>
+

@@ -1,0 +1,59 @@
+/* listaFerramentas.css*/
+.tabela-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+.table-ferramentas {
+    width: 80%; /* Ajuste a largura conforme necessário */
+    margin-top: 20px; /* Espaçamento no topo */
+    border-collapse: collapse;
+}
+
+.table-ferramentas th, .table-ferramentas td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left; /* Alinhamento do texto nas células */
+}
+.table-ferramentas th {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+.print-button-container {
+    text-align: center; /* Centraliza o botão na página */
+    margin-top: 20px; /* Adiciona espaço acima do botão */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do botão */
+}
+
+.print-button-container button {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Texto branco */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Padding para aumentar a área clicável */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor do mouse como ponteiro para indicar que é clicável */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Sombra para efeito 3D leve */
+    transition: background-color 0.3s; /* Transição suave da cor de fundo */
+}
+
+.print-button-container button:hover {
+    background-color: #45a049; /* Cor de fundo mais escura quando passa o mouse */
+}
